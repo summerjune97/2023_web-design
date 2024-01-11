@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>My playlist 온라인 전시회 - 생각의 공간</title>
+        <meta name="description" content="숨겨진 명곡들을 소개합니다">
+
+        <!--CSS-->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist.ress.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="yerin" class="big-bg">
+            <header class="page-header wrapper">
+                <h1><a href="playlist.html"><img class="logo" src="/Users/ming/Downloads/헤드폰.jpg" alt="music"></a>Threads of Love</h1>
+                <div class="yerin-content wrapper">
+                    <h2 class = "page-title">예린의 공간</h2><hr>
+                    <p>
+                        내 파랑은 항상 검정에 무너져왔어요
+                    </p>
+                </div><!--/.yerin-content-->
+                <nav>
+                    <ul class="main-nav">
+                        <li><a href="minsu.html">민수</a></li>
+                        <li><a href="yerin.html">예린</a></li>
+                        <li><a href="jihun.html">지훈</a></li>
+                        <li><a href="story.html">Your Story</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div><!--/#home-->
+        <div class="wrapper grid">
+            <div class="item">
+                <img src="/Users/ming/Desktop/예빛-누군가의 마음이 되면.png" alt="누군가의 마음이 되면">
+                <p>예빛-누군가의 마음이 되면</p>
+            </div>
+            <div class="item">
+                <img src="/Users/ming/Desktop/넬-지구가 태양을 네 번.png" alt="지구가 태양을 네 번">
+                <p>넬-지구가 태양을 네 번</p>
+            </div>
+            <div class="item">
+                <img src="/Users/ming/Desktop/데이먼스 이어-yours.png" alt="yours">
+                <p>데이먼스 이어-yours</p>
+            </div>
+            <div class="item">
+                <img src="/Users/ming/Desktop/김현창-아침만 남겨주고.png" alt="아침만 남겨주고">
+                <p>김현창-아침만 남겨주고</p>
+            </div>
+            <div class="item">
+                <img src="/Users/ming/Desktop/백아-Amor.png" alt="Amor">
+                <p>백아-amor</p>
+            </div>
+            <div class="item">
+                <img src="/Users/ming/Desktop/10cm-스토커.png" alt="스토커">
+                <p>10cm-스토커</p>
+            </div>
+            <div class="item">
+                <img src="/Users/ming/Desktop/허회경-난 묻어요.png" alt="난 묻어요">
+                <p>허회경-난 묻어요</p>
+            </div>
+        </div>
+        <footer>
+            <div class="wrapper">
+                <p><small>&copy; 2024 Summerjune</small></p>
+            </div>
+        </footer>
+    </body>
+
+    <style>
+        @charset "UTF-8";
+        html {
+            font-size : 100%;
+        }
+        body {
+            font-family: "나눔손글씨 암스테르담","맑은고딕",MalgunGothic, "Apple SD Gothic Neo", sans-serif;
+            font-weight: bold;
+            line-height:1.7;
+        }
+        a {
+            text-decoration : none;
+        }
+        img {
+            max-width : 100%;
+        }
+        /*HEADER
+        ---------------------------*/
+        .logo {
+            width:80px;
+            margin-top:14px;
+        }
+        .main-nav {
+            display:flex;
+            font-size:1.25rem;
+            text-transform : uppercase;
+            margin-top : 34px;
+            list-style:none;
+        }
+        .main-nav li {
+            margin-left : 36px;
+        }
+        .main-nav a {
+            color: black;
+        }
+        .main-nav a:hover {
+            color: #0bd;
+        }
+        .page-header {
+            display : flex;
+            justify-content: space-between;
+        }
+        .wrapper {
+            max-width : 1100px;
+            margin: 0 auto;
+            padding : 0 4%;
+        }
+        /*HOME
+        ---------------------*/
+        .home-content {
+            text-align : center;
+            margin-top : 10%;
+        }
+        .home-content p {
+            font-size : 1.125rem;
+            margin : 10px 0 42px;
+        }
+        /*제목*/
+        .page-title {
+            font-size : 3rem;
+            font-family : '나눔손글씨 암스테르담','맑은고딕', serif;
+            text-transform : uppercase;
+            font-weight : bold;
+        }
+        /*버튼*/
+        .button {
+            font-size : 1.375rem;
+            background : #0bd;
+            color: #fff;
+            border-radius : 5px;
+            padding: 18px 32px;
+        }
+        .button:hover {
+            background : #0090aa;
+        }
+        /*큰 배경 이미지*/
+        .big-bg {
+            background-size : cover;
+            background-position: center top;
+            background-repeat : no-repeat;
+        }
+        #home {
+            background-image : url('/Users/ming/Downloads/PLAYLIST.jpg');
+            min-height : 100vh;
+        }
+        #home.page-title {
+            text-transform : none;
+        }
+        /* yerin
+        --------------------------*/
+        #yerin {
+            background-image : url('/Users/ming/Downloads/PLAYLIST 빈배경.jpg');
+            height : 400px;
+        }
+        .yerin-content {
+            max-width : 560px;
+            margin-top : 10%;
+        }
+        .yerin-content.page-title {
+            text-align: center;
+        }
+        .yerin-content p {
+            font-size : 1.125rem;
+            margin: 10px 0 0;
+        }
+        /*푸터
+        ---------------------------*/
+        footer {
+            background : #432;
+            text-align: center;
+            padding: 26px 0;
+        }
+        footer p {
+            color:#fff;
+            font-size: 1.5rem;
+        }
+        .grid {
+            display:grid;
+            gap:26px;
+            grid-template-columns : repeat(auto-fit,minmax(240px,1fr));
+            margin-top: 6%;
+            margin-bottom : 50px;
+        }
+    </style>
+</html>

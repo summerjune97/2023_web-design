@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>My playlist 온라인 전시회 - 지훈의 공간</title>
+        <meta name="description" content="숨겨진 명곡들을 소개합니다">
+
+        <!--CSS-->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist.ress.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="jihun" class="big-bg">
+            <header class="page-header wrapper">
+                <h1><a href="playlist.html"><img class="logo" src="/Users/ming/Downloads/헤드폰.jpg" alt="music"></a>Threads of Love</h1>
+                <div class="jihun-content wrapper">
+                    <h2 class = "page-title">지훈의 공간</h2><hr>
+                    <p>
+                        마음을 달래봐도 더는 막을 수 없는 것
+                    </p>
+                </div><!--/.jihun-content-->
+                <nav>
+                    <ul class="main-nav">
+                        <li><a href="minsu.html">민수</a></li>
+                        <li><a href="yerin.html">예린</a></li>
+                        <li><a href="jihun.html">지훈</a></li>
+                        <li><a href="story.html">Your Story</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div><!--/#home-->
+        <div class="wrapper grid">
+            <div class="item">
+                <img src="/Users/ming/Desktop/백예린-Antifreeze.png" alt="antifreeze">
+                <p>백예린-antifreeze</p>
+            </div>
+            <div class="item">
+                <img src="/Users/ming/Desktop/데이먼스 이어-auburn.png" alt="auburn">
+                <p>데이먼스 이어-auburn</p>
+            </div>
+            <div class="item">
+                <img src="/Users/ming/Desktop/ruel-distance.png" alt="distance">
+                <p>ruel-distance</p>
+            </div>
+            <div class="item">
+                <img src="/Users/ming/Desktop/eli-wish now was later.png" alt="wish now was later">
+                <p>eli-wish now was later</p>
+            </div>
+            <div class="item">
+                <img src="/Users/ming/Desktop/브로콜리너마저-좋은 사람이 아니에요.png" alt="좋은 사람이 아니에요">
+                <p>브로콜리너마저-좋은 사람이 아니에요</p>
+            </div>
+            <div class="item">
+                <img src="/Users/ming/Desktop/전진희-우리의 사랑은 여름이었지.png" alt="우리의 사랑은 여름이었지">
+                <p>전진희-우리의 사랑은 여름이었지</p>
+            </div>
+            <div class="item">
+                <img src="/Users/ming/Desktop/권지수-한 여름 사랑은 흘러가고.png" alt="한 여름 사랑은 흘러가고">
+                <p>권지수-한 여름 사랑은 흘러가고</p>
+            </div>
+        </div>
+        <footer>
+            <div class="wrapper">
+                <p><small>&copy; 2024 Summerjune</small></p>
+            </div>
+        </footer>
+    </body>
+
+    <style>
+        @charset "UTF-8";
+        html {
+            font-size : 100%;
+        }
+        body {
+            font-family: "나눔손글씨 암스테르담","맑은고딕",MalgunGothic, "Apple SD Gothic Neo", sans-serif;
+            font-weight: bold;
+            line-height:1.7;
+        }
+        a {
+            text-decoration : none;
+        }
+        img {
+            max-width : 100%;
+        }
+        /*HEADER
+        ---------------------------*/
+        .logo {
+            width:80px;
+            margin-top:14px;
+        }
+        .main-nav {
+            display:flex;
+            font-size:1.25rem;
+            text-transform : uppercase;
+            margin-top : 34px;
+            list-style:none;
+        }
+        .main-nav li {
+            margin-left : 36px;
+        }
+        .main-nav a {
+            color: black;
+        }
+        .main-nav a:hover {
+            color: #0bd;
+        }
+        .page-header {
+            display : flex;
+            justify-content: space-between;
+        }
+        .wrapper {
+            max-width : 1100px;
+            margin: 0 auto;
+            padding : 0 4%;
+        }
+        /*HOME
+        ---------------------*/
+        .home-content {
+            text-align : center;
+            margin-top : 10%;
+        }
+        .home-content p {
+            font-size : 1.125rem;
+            margin : 10px 0 42px;
+        }
+        /*제목*/
+        .page-title {
+            font-size : 3rem;
+            font-family : '나눔손글씨 암스테르담','맑은고딕', serif;
+            text-transform : uppercase;
+            font-weight : bold;
+        }
+        /*버튼*/
+        .button {
+            font-size : 1.375rem;
+            background : #0bd;
+            color: #fff;
+            border-radius : 5px;
+            padding: 18px 32px;
+        }
+        .button:hover {
+            background : #0090aa;
+        }
+        /*큰 배경 이미지*/
+        .big-bg {
+            background-size : cover;
+            background-position: center top;
+            background-repeat : no-repeat;
+        }
+        #home {
+            background-image : url('/Users/ming/Downloads/PLAYLIST.jpg');
+            min-height : 100vh;
+        }
+        #home.page-title {
+            text-transform : none;
+        }
+        /* jihun
+        --------------------------*/
+        #jihun {
+            background-image : url('/Users/ming/Downloads/PLAYLIST 빈배경.jpg');
+            height : 400px;
+        }
+        .jihun-content {
+            max-width : 560px;
+            margin-top : 10%;
+        }
+        .jihun-content.page-title {
+            text-align: center;
+        }
+        .jihun-content p {
+            font-size : 1.125rem;
+            margin: 10px 0 0;
+        }
+        /*푸터
+        ---------------------------*/
+        footer {
+            background : #432;
+            text-align: center;
+            padding: 26px 0;
+        }
+        footer p {
+            color:#fff;
+            font-size: 1.5rem;
+        }
+        .grid {
+            display:grid;
+            gap:26px;
+            grid-template-columns : repeat(auto-fit,minmax(240px,1fr));
+            margin-top: 6%;
+            margin-bottom : 50px;
+        }
+    </style>
+</html>
