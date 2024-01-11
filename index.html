@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>Playlist 온라인 전시</title>
+        <meta name="description" content="숨겨진 명곡들을 소개합니다">
+
+        <!--CSS-->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist.ress.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="home" class="big-bg">
+            <header class="page-header wrapper">
+                <h1><a href="index.html"><img class="logo" src="/Users/ming/Downloads/헤드폰.jpg" alt="music"></a>Threads of Love</h1>
+                <nav>
+                    <ul class="main-nav">
+                        <li><a href="minsu.html">민수</a></li>
+                        <li><a href="yerin.html">예린</a></li>
+                        <li><a href="jihun.html">지훈</a></li>
+                        <li><a href="story.html">Your Story</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="home-content wrapper">
+                <h2 class="page-title">My playlist</h2>
+                <p>세 사람의 사랑 이야기를 노래로 전시합니다.</p>
+                <a class="button" href="about.html">About</a>
+            </div><!--/.home-content-->
+        </div><!--/#home-->
+    </body>
+
+    <style>
+        @charset "UTF-8";
+        html {
+            font-size : 100%;
+        }
+        body {
+            font-family: '나눔손글씨 암스테르담',"맑은고딕",MalgunGothic, "Apple SD Gothic Neo", sans-serif;
+            font-weight : bold;
+            line-height:1.7;
+        }
+        a {
+            text-decoration : none;
+        }
+        img {
+            max-width : 100%;
+        }
+        /*HEADER
+        ---------------------------*/
+        .logo {
+            width:80px;
+            margin-top:14px;
+        }
+        .main-nav {
+            display:flex;
+            font-size:1.25rem;
+            text-transform : uppercase;
+            margin-top : 34px;
+            list-style:none;
+        }
+        .main-nav li {
+            margin-left : 36px;
+        }
+        .main-nav a {
+            color: black;
+        }
+        .main-nav a:hover {
+            color: #0bd;
+        }
+        .page-header {
+            display : flex;
+            justify-content: space-between;
+        }
+        .wrapper {
+            max-width : 1100px;
+            margin: 0 auto;
+            padding : 0 4%;
+        }
+        /*HOME
+        ---------------------*/
+        .home-content {
+            text-align : center;
+            margin-top : 10%;
+        }
+        .home-content p {
+            font-size : 1.125rem;
+            margin : 10px 0 42px;
+        }
+        /*제목*/
+        .page-title {
+            font-size : 5rem;
+            font-family : '나눔손글씨 암스테르담','Philosopher', serif;
+            text-transform : uppercase;
+            font-weight : bold;
+        }
+        /*버튼*/
+        .button {
+            font-size : 1.375rem;
+            background : gray;
+            color: #fff;
+            border-radius : 5px;
+            padding: 18px 32px;
+        }
+        .button:hover {
+            background : #0090aa;
+        }
+        /*큰 배경 이미지*/
+        .big-bg {
+            background-size : cover;
+            background-position: center top;
+            background-repeat : no-repeat;
+        }
+        #home {
+            background-image : url('/Users/ming/Downloads/PLAYLIST.jpg');
+            min-height : 100vh;
+        }
+        #home.page-title {
+            text-transform : none;
+        }
+    </style>
+</html>
